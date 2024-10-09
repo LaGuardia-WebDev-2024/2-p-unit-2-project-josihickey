@@ -1,14 +1,14 @@
 <!--
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ yes] Two Element Selectors
+[ yes] Two ID Selectors
+[ yes] Two Class Selectors
+[ yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
-[ no ] Feature 3 - Include Horizontal Line
+[ yes ] Feature 2 - Include Border Radius CSS Property
+[ yes ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
 [ no ] Feature 5 - Include Border CSS Property
 -->
@@ -18,9 +18,77 @@ Select ONE Additional Feature to Add
     <head>
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
+      <style>
+        h1{font-family:Garamond;color:rgb(0,122,63)}
+        body{background-color:rgb(202,255,199)}
+        #intro{background-color:rgb(0,122,63);color:rgb(202,255,199)}
+        #food{background-color:rgb(0,122,63);color:rgb(202,255,199)}
+        #food-list{color:rgb(0,122,63)}
+        .important{color:rgb(255,124,115)}
+        h2{font-family:Garamond;color:rgb(0,122,63)}
+        img{border-radius: 2px 10%}
+        .food-image{border-radius:10px 10%}
+        
+        
+      </style>
     </head>
     <body>
-
-        
+      <h1>Travel to Sicily</h1>
+      <hr size="1" color="green">
+      <br>
+      <img src="https://oceanmanswim.com/wp-content/uploads/2023/02/desktop_palermo-scaled.jpg" 
+           width="500" alt="The Sicilian city of Palermo as seen from just off the coast.">
+        <p id="intro">
+          Sicily is an island known for its rich <span class="important">culture</span> and <span class="important">history</span>, as well as for their <span class="important">decadent foods</span>. 
+          It is an <em>autonomous region </em> of Italy, located just off of the main peninsula. The capital 
+          of Sicily is <span class="important">Palermo</span>, located on the northwestern coast of the island.
+      </p>
+      <img src="https://www.wanderingitaly.com/images/sicily-railway-map1000.png" width="300" alt="A map of Sicily" id="map">
+      <h2>History</h2>
+      <h2>Food</h2>
+      <p id="food">
+        Sicilian foods are amazing. Here are some you have to try:
+      </p>
+      <ul id="food-list">
+        <li>Arancini</li>
+        <br>
+        <img src="https://www.sicilyaddict.it/cdn/shop/articles/Arancini_siciliani_ricetta_originale.jpg?v=1645011568" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Pasta alla Norma</li>
+        <br>
+        <img src="https://www.sipandfeast.com/wp-content/uploads/2023/07/pasta-alla-norma-recipe-snippet-2.jpg" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Cannoli</li>
+        <br>
+        <img src="https://www.giallozafferano.com/images/227-22770/sicilian-cannoli_650x433_wm.jpg" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Citrus</li>
+        <br>
+        <img src="https://orderisda.org/wp-content/uploads/2018/10/162540633.jpg" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Caponata</li>
+        <br>
+        <img src="https://www.allrecipes.com/thmb/6E_lyvhk5hD7xgyoOQk7tU7tXl4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/247268-eggplant-caponata-sicilian-version-3x4-327-copy-a4ea61283b464351a502ff76093807f3.jpg" 
+             width="250" class="food-image">
+        <br>
+        <br>
+        <li>Panelle</li>
+        <br>
+        <img src="https://www.cookingwithnonna.com/images/com_yoorecipe/154/cropped-panelle-siciliane.jpg" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Sfincione</li>
+        <br>
+        <img src="https://solo-dolce.com/wp-content/uploads/2024/03/sfincione-20-600x675-1-500x500.jpg" width="250" class="food-image">
+        <br>
+        <br>
+        <li>Couscous alla Trapanese</li>
+        <br>
+        <img src="https://www.francolania.com/wp-content/uploads/2019/06/Depositphotos_16344975_xl-2015-680x478.jpg" width="250" class="food-image">
+      </ul>
     </body>
 </html>
